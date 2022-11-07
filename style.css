@@ -1,0 +1,250 @@
+/********* GLOBAL DECLARATION ***************/
+/********* GLOBAL DECLARATION ***************/
+/********* GLOBAL DECLARATION ***************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/************* NAV SECTION ***************/
+/************* NAV SECTION ***************/
+/************* NAV SECTION ***************/
+
+#navdiv {
+    background-color: gray;
+    height: 80px;
+}
+
+#p1 {
+    display: inline;
+    padding-left: 50px;
+    font-weight: 500;
+    padding-bottom: 50px;
+    position: relative;
+    top: 20px;
+    color: #00ff7f;
+}
+
+#sp1 {
+    padding-left: 50px;
+    position: relative;
+    top: 20px;
+
+}
+
+#p2 {
+    display: inline;
+    padding-left: 50px;
+    font-weight: 500;
+    position: relative;
+    top: 20px;
+    color: #00ff7f;
+
+}
+
+.hamburger {
+    display: none;
+}
+
+
+/************ INTRODUCTION SECTION *************/
+/************ INTRODUCTION SECTION *************/
+/************ INTRODUCTION SECTION *************/
+.intro-div {
+    height: 500px;
+    background-image: url('tech1.jpg');
+    background-size: cover;
+}
+
+#intro-h1 {
+    padding-top: 180px;
+    font-weight: bolder;
+    padding-left: 120px;
+    color: #fff;
+}
+
+#intro-h2 {
+    font-weight: bolder;
+    padding-left: 120px;
+    color: #fff;
+}
+
+.preference {
+    display: flex;
+    justify-content: space-around;
+}
+
+.p3 {
+    width: 40%;
+    border: 2px solid gray;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+/************ MEDIA QUERIES ******************/
+/************ MEDIA QUERIES ******************/
+/************ MEDIA QUERIES ******************/
+/******** for large screens **********/
+@media (min-width: 993px) {
+
+
+}
+
+
+/********* For medium screens ******/
+@media (min-width: 768px) and (max-width: 992px) {
+     /**************** NAV SECTION ****************/
+     .nav-menu {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .mobile-menu {
+        list-style: none;
+        margin-top: 40px;
+        margin-left: -50px;
+    }
+
+    .mobile-link {
+        background-color: gray;
+        color: #7fff00;
+        padding: 15px 120px;
+        border-radius: 10px;
+    }
+
+}
+
+
+
+/********** For small screens **********/
+@media (min-width: 577px) and (max-width: 767px) {
+    /**************** NAV SECTION ****************/
+    .intro-div {
+        height: 500px;
+       /* background-image: url('tech/images.jpeg'); */
+        background-position: center;
+    }
+    #sp1 {
+        display: none;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .mobile-menu {
+        list-style: none;
+        margin-top: 40px;
+        margin-left: -50px;
+    }
+
+    .mobile-link {
+        background-color: gray;
+        color: #7fff00;
+        padding: 15px 120px;
+        border-radius: 10px;
+    }
+
+    .mobile-trans {
+        padding-top: 50px;
+    }
+
+    .preference {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .p3 {
+        width: 100%;
+    }
+
+    .whatwedo {
+        background-image: url('pexels-photo-323705.jpeg');
+        height: 1000px;
+    }
+
+}
+
+
+
+ 
+/************* For extra small screens ************/
+@media (max-width: 576px) {
+    /**************** NAV SECTION ****************/
+    .intro-div {
+        height: 500px;
+       /* background-image: url('tech/images.jpeg'); */
+       background-position: center;
+    }
+    #sp1 {
+        display: none;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .mobile-menu {
+        list-style: none;
+        margin-top: 40px;
+        margin-left: -50px;
+    }
+
+    .mobile-link {
+        background-color: gray;
+        color: #7fff00;
+        padding: 15px 120px;
+        border-radius: 10px;
+    }
+
+    .mobile-trans {
+        padding-top: 50px;
+    }
+
+    .preference {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .p3 {
+        width: 100%;
+    }
+
+    .whatwedo {
+        background-image: url('pexels-photo-323705.jpeg');
+        /*background-image: url('pexels-photo-867092.jpeg');*/
+        height: 1200px;
+    }
+
+    .mission {
+        margin-bottom: 40px;
+    }
+
+    #vision {
+        margin-top: 40px;
+    }
+
+}

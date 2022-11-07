@@ -1,0 +1,252 @@
+/********* GLOBAL DECLARATION ***************/
+/********* GLOBAL DECLARATION ***************/
+/********* GLOBAL DECLARATION ***************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/************* NAV SECTION ***************/
+/************* NAV SECTION ***************/
+/************* NAV SECTION ***************/
+
+#navdiv {
+    background-color: gray;
+    height: 80px;
+}
+
+#p1 {
+    display: inline;
+    padding-left: 50px;
+    font-weight: 500;
+    padding-bottom: 50px;
+    position: relative;
+    top: 20px;
+    color: #00ff7f;
+}
+
+#sp1 {
+    padding-left: 50px;
+    position: relative;
+    top: 20px;
+
+}
+
+#p2 {
+    display: inline;
+    padding-left: 50px;
+    font-weight: 500;
+    position: relative;
+    top: 20px;
+    color: #00ff7f;
+
+}
+
+.hamburger {
+    display: none;
+}
+
+
+
+
+
+/************ MEDIA QUERIES ******************/
+/************ MEDIA QUERIES ******************/
+/************ MEDIA QUERIES ******************/
+/******** for large screens **********/
+@media (min-width: 993px) {
+
+
+}
+
+
+/********* For medium screens ******/
+@media (min-width: 768px) and (max-width: 992px) {
+     /**************** NAV SECTION ****************/
+     .nav-menu {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .mobile-menu {
+        list-style: none;
+        margin-top: 40px;
+        margin-left: -50px;
+    }
+
+    .mobile-link {
+        background-color: gray;
+        color: #7fff00;
+        padding: 15px 120px;
+        border-radius: 10px;
+    }
+
+    /********* OUR SERVICES SECTION ***********/
+    .mobile-video {
+        width: 100%;
+    }
+
+   /* #first-video {
+        position: relative;
+        top: -70px;
+    }
+
+    #second-video {
+        position: relative;
+        top: -150px;
+    } */
+
+}
+
+
+
+/********** For small screens **********/
+@media (min-width: 577px) and (max-width: 767px) {
+    /**************** NAV SECTION ****************/
+    #sp1 {
+        display: none;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .mobile-menu {
+        list-style: none;
+        margin-top: 40px;
+        margin-left: -50px;
+    }
+
+    .mobile-link {
+        background-color: gray;
+        color: #7fff00;
+        padding: 15px 120px;
+        border-radius: 10px;
+    }
+
+    .mobile-trans {
+        padding-top: 50px;
+    }
+
+    .preference {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .p3 {
+        width: 100%;
+    }
+
+    .whatwedo {
+        background-image: url('pexels-photo-323705.jpeg');
+        height: 1000px;
+    }
+
+    /********* OUR SERVICES SECTION ***********/
+    .mobile-video {
+        width: 100%;
+        height: 300px;
+    }
+
+    /*#first-video {
+        position: relative;
+        top: -200px;
+    }
+
+    #second-video {
+        position: relative;
+        top: -550px;
+    }*/
+
+}
+
+
+
+ 
+/************* For extra small screens ************/
+@media (max-width: 576px) {
+    /**************** NAV SECTION ****************/
+    #sp1 {
+        display: none;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .mobile-menu {
+        list-style: none;
+        margin-top: 40px;
+        margin-left: -50px;
+    }
+
+    .mobile-link {
+        background-color: gray;
+        color: #7fff00;
+        padding: 15px 120px;
+        border-radius: 10px;
+    }
+
+    .mobile-trans {
+        padding-top: 50px;
+    }
+
+    .preference {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .p3 {
+        width: 100%;
+    }
+
+    .whatwedo {
+        background-image: url('pexels-photo-323705.jpeg');
+        /*background-image: url('pexels-photo-867092.jpeg');*/
+        height: 1200px;
+    }
+
+    .mission {
+        margin-bottom: 40px;
+    }
+
+    #vision {
+        margin-top: 40px;
+    }
+
+    /********* OUR SERVICES SECTION ***********/
+    .mobile-video {
+        width: 100%;
+        height: 300px;
+    }
+
+    /*#first-video {
+        position: relative;
+        top: -200px;
+    }*/
+
+    #second-video {
+        position: relative;
+        margin-top: -300px;
+    }
+
+}

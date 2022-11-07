@@ -1,0 +1,268 @@
+/********* GLOBAL DECLARATION ***************/
+/********* GLOBAL DECLARATION ***************/
+/********* GLOBAL DECLARATION ***************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('tech2.jpeg');
+}
+
+
+
+/************* NAV SECTION ***************/
+/************* NAV SECTION ***************/
+/************* NAV SECTION ***************/
+
+#navdiv {
+    background-color: gray;
+    height: 80px;
+}
+
+#p1 {
+    display: inline;
+    padding-left: 50px;
+    font-weight: 500;
+    padding-bottom: 50px;
+    position: relative;
+    top: 20px;
+    color: #00ff7f;
+}
+
+#sp1 {
+    padding-left: 50px;
+    position: relative;
+    top: 20px;
+
+}
+
+#p2 {
+    display: inline;
+    padding-left: 50px;
+    font-weight: 500;
+    position: relative;
+    top: 20px;
+    color: #00ff7f;
+
+}
+
+.hamburger {
+    display: none;
+}
+
+.whatwedo {
+    width: 100%;
+    height: 600px;
+    background-image: url('The.Matrix.glmatrix.1.png');
+}
+
+.mission {
+    height: 300px;
+    /*background-image: url('pexels-photo-137618.jpeg');*/
+    background-size: cover;
+}
+
+#mission {
+    height: 300px;
+    background-image: url('images.jpeg');
+    background-size: cover;
+}
+
+.vision {
+    height: 300px;
+    background-image: url('images\ \(6\).jpeg');
+    background-size: cover;
+}
+
+#vision {
+    height: 300px;
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+.dream {
+    height: 250px;
+    background-color: #000;
+}
+
+
+
+
+
+
+
+/************ MEDIA QUERIES ******************/
+/************ MEDIA QUERIES ******************/
+/************ MEDIA QUERIES ******************/
+/******** for large screens **********/
+@media (min-width: 993px) {
+
+
+}
+
+
+/********* For medium screens ******/
+@media (min-width: 768px) and (max-width: 992px) {
+     /**************** NAV SECTION ****************/
+     .nav-menu {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .mobile-menu {
+        list-style: none;
+        margin-top: 40px;
+        margin-left: -50px;
+    }
+
+    .mobile-link {
+        background-color: gray;
+        color: #7fff00;
+        padding: 15px 120px;
+        border-radius: 10px;
+    }
+
+    .vision {
+        height: 300px;
+        background-image: url('images\ \(6\).jpeg');
+        background-size: cover;
+        background-position: center;
+    }
+    
+
+}
+
+
+
+/********** For small screens **********/
+@media (min-width: 577px) and (max-width: 767px) {
+    /**************** NAV SECTION ****************/
+    #sp1 {
+        display: none;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .mobile-menu {
+        list-style: none;
+        margin-top: 40px;
+        margin-left: -50px;
+    }
+
+    .mobile-link {
+        background-color: gray;
+        color: #7fff00;
+        padding: 15px 120px;
+        border-radius: 10px;
+    }
+
+    .mobile-trans {
+        padding-top: 50px;
+    }
+
+    .preference {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .p3 {
+        width: 100%;
+    }
+
+    .whatwedo {
+       /* background-image: url('pexels-photo-323705.jpeg'); */
+        height: 1000px;
+    }
+
+    .vision {
+        height: 300px;
+        background-image: url('images\ \(6\).jpeg');
+        background-size: cover;
+        background-position: center;
+    }
+
+}
+
+
+
+ 
+/************* For extra small screens ************/
+@media (max-width: 576px) {
+    /**************** NAV SECTION ****************/
+    #sp1 {
+        display: none;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .mobile-menu {
+        list-style: none;
+        margin-top: 40px;
+        margin-left: -50px;
+    }
+
+    .mobile-link {
+        background-color: gray;
+        color: #7fff00;
+        padding: 15px 120px;
+        border-radius: 10px;
+    }
+
+    .mobile-trans {
+        padding-top: 50px;
+    }
+
+    .preference {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .p3 {
+        width: 100%;
+    }
+
+    .whatwedo {
+       /* background-image: url('pexels-photo-323705.jpeg'); */
+        /*background-image: url('pexels-photo-867092.jpeg');*/
+        height: 1200px;
+    }
+
+    .mission {
+        margin-bottom: 40px;
+    }
+
+    #vision {
+        margin-top: 40px;
+    }
+
+    .vision {
+        height: 300px;
+        background-image: url('images\ \(6\).jpeg');
+        background-size: cover;
+        background-position: center;
+    }
+
+}
